@@ -17,4 +17,7 @@ $(document).ready(function() {
     $("#backBtn").click(function(){
         $("img").slideDown(2000)
     });
+    $("p").click(function() {
+        alert("Thanks your notice is received")
+    });
 });
